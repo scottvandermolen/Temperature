@@ -134,56 +134,56 @@
 		
 		' Get the temperature value in Celsius
 		' 
-		' @param input The desired temperature value in Celsius.
+		' @return float The desired temperature value in Celsius.
 		public property get value_celsius()
 			value_celsius = m_value_kelvin - 273.15
 		end property
 		
 		' Get the temperature value in Delisle
 		' 
-		' @param input The desired temperature value in Delisle.
+		' @return float The desired temperature value in Delisle.
 		public property get value_delisle()
 			value_delisle = (373.15 - m_value_kelvin) * 3 / 2
 		end property
 		
 		' Get the temperature value in Fahrenheit
 		' 
-		' @param input The desired temperature value in Fahrenheit.
+		' @return float The desired temperature value in Fahrenheit.
 		public property get value_fahrenheit()
 			value_fahrenheit = (m_value_kelvin - 273.15) * 9 / 5 + 32
 		end property
 		
 		' Get the temperature value in Kelvin
 		' 
-		' @param input The desired temperature value in Kelvin.
+		' @return float The desired temperature value in Kelvin.
 		public property get value_kelvin()
 			value_kelvin = m_value_kelvin
 		end property
 		
 		' Get the temperature value in Newton
 		' 
-		' @param input The desired temperature value in Newton.
+		' @return float The desired temperature value in Newton.
 		public property get value_newton()
 			value_newton = (m_value_kelvin - 273.15) * 33 / 100
 		end property
 		
 		' Get the temperature value in Rankine
 		' 
-		' @param input The desired temperature value in Rankine.
+		' @return float The desired temperature value in Rankine.
 		public property get value_rankine()
 			value_rankine = m_value_kelvin * 1.8
 		end property
 		
 		' Get the temperature value in Réaumur
 		' 
-		' @param input The desired temperature value in Réaumur.
+		' @return float The desired temperature value in Réaumur.
 		public property get value_reaumur()
 			value_reaumur = (m_value_kelvin - 273.15) * 4 / 5
 		end property
 		
 		' Get the temperature value in Rømer
 		' 
-		' @param input The desired temperature value in Rømer.
+		' @return float The desired temperature value in Rømer.
 		public property get value_romer()
 			value_romer = (m_value_kelvin - 273.15) * 21 / 40 + 7.5
 		end property

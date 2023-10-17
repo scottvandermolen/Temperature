@@ -13,7 +13,7 @@
 	*/
 	
 	// Change debugmode to true if you need to see error messages.
-	$debugmode = true;
+	$debugmode = false;
 	if ($debugmode)
 	{
 		// Allow the display of errors during debugging.

@@ -2,6 +2,19 @@
 <% Option Explicit %>
 <!--#include file="Temperature.class.asp"-->
 <%
+	' ASP Temperature Class Unit Tests
+	' 
+	' Copyright (c) 2023, Scott Vander Molen; some rights reserved.
+	' 
+	' This work is licensed under a Creative Commons Attribution 4.0 International License.
+	' To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+	' 
+	' @author  Scott Vander Molen
+	' @version 2.0
+	' @since   2023-10-03
+	'
+	' https://en.wikipedia.org/wiki/Conversion_of_scales_of_temperature
+
 	' Ensure that UTF-8 encoding is used instead of Windows-1252
 	Session.CodePage = 65001
 	Response.CodePage = 65001

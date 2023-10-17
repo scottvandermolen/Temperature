@@ -203,7 +203,7 @@
 		/*
 		* Get the temperature value in Celsius
 		* 
-		* @param input The desired temperature value in Celsius.
+		* @return float The desired temperature value in Celsius.
 		*/
 		public function get_value_celsius()
 		{
@@ -213,7 +213,7 @@
 		/*
 		* Get the temperature value in Delisle
 		* 
-		* @param input The desired temperature value in Delisle.
+		* @return float The desired temperature value in Delisle.
 		*/
 		public function get_value_delisle()
 		{
@@ -223,7 +223,7 @@
 		/*
 		* Get the temperature value in Fahrenheit
 		* 
-		* @param input The desired temperature value in Fahrenheit.
+		* @return float The desired temperature value in Fahrenheit.
 		*/
 		public function get_value_fahrenheit()
 		{
@@ -233,7 +233,7 @@
 		/*
 		* Get the temperature value in Kelvin
 		* 
-		* @param input The desired temperature value in Kelvin.
+		* @return float The desired temperature value in Kelvin.
 		*/
 		public function get_value_kelvin()
 		{
@@ -243,7 +243,7 @@
 		/*
 		* Get the temperature value in Newton
 		* 
-		* @param input The desired temperature value in Newton.
+		* @return float The desired temperature value in Newton.
 		*/
 		public function get_value_newton()
 		{
@@ -253,7 +253,7 @@
 		/*
 		* Get the temperature value in Rankine
 		* 
-		* @param input The desired temperature value in Rankine.
+		* @return float The desired temperature value in Rankine.
 		*/
 		public function get_value_rankine()
 		{
@@ -263,7 +263,7 @@
 		/*
 		* Get the temperature value in Réaumur
 		* 
-		* @param input The desired temperature value in Réaumur.
+		* @return float The desired temperature value in Réaumur.
 		*/
 		public function get_value_reaumur()
 		{
@@ -273,7 +273,7 @@
 		/*
 		* Get the temperature value in Rømer
 		* 
-		* @param input The desired temperature value in Rømer.
+		* @return float The desired temperature value in Rømer.
 		*/
 		public function get_value_romer()
 		{
